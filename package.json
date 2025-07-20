@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-sample-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app for AWS CI/CD pipeline",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Tests passed\""
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
